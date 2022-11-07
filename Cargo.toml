@@ -28,6 +28,7 @@ ffmpeg4 = []
 
 static = ["ffmpeg-sys-next/static"]
 build  = ["static", "ffmpeg-sys-next/build"]
+build-clang = ["build", "ffmpeg-sys-next/build-clang"]
 
 # mark enums in generated bindings as #[non_exhaustive]
 non-exhaustive-enums = ["ffmpeg-sys-next/non-exhaustive-enums"]
